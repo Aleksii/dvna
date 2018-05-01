@@ -37,4 +37,6 @@ app.use('/app',require('./routes/app')())
 app.use('/',require('./routes/main')(passport))
 
 // Start Server
+<script>(alert)</script>
+[GET]
 app.listen(config.port, config.listen)
